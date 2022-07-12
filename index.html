@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./resources/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Currency Converter</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="heading">Currency Converter</h1>
+        <div class="rate">
+            <div class="rate1"></div>
+            <div class="rate2"></div>
+        </div>
+        <div class="main">
+            <div class="initial">
+                <div class="options"><select></select></div>
+                <div class="input"><input type="number"></div>
+            </div>
+            <span class="icon switch" style="font-size: 36px;">
+                <i class="fa-solid fa-arrow-right-arrow-left"></i>
+            </span>
+            <div class="target">
+                <div class="options"><select></select></div>
+                <div class="input"><input disabled type="number"></div>
+            </div>
+        </div>
+
+        <button class="result">Start Conversion</button>
+    </div>
+
+    <script src="./resources/main.js"></script>
+</body>
+</html>
